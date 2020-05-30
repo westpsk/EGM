@@ -1,0 +1,31 @@
+{
+  "private": true,
+  "description": "贝壳原石渲染器客户端",
+  "workspaces": [
+    "packages/*"
+  ],
+  "devDependencies": {
+    "@commitlint/cli": "^8.3.5",
+    "@commitlint/config-conventional": "^8.3.4",
+    "husky": "^4.2.5",
+    "lerna": "^3.21.0",
+    "prettier": "^2.0.5",
+    "pretty-quick": "^2.0.1"
+  },
+  "scripts": {
+    "pretty-quick": "pretty-quick",
+    "bootstrap": "lerna exec npm install",
+    "pub": "lerna publish"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "pretty-quick --staged",
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    }
+  },
+  "name": "kegem",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@git.lianjia.com:plat-fe/kegem.git",
+  "license": "MIT"
+}

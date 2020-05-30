@@ -1,0 +1,46 @@
+Arguments: 
+  /usr/local/bin/node /Users/pansongkui/bin/yarn add prop-types react ink ink-big-text
+
+PATH: 
+  /usr/local/mysql/bin:/usr/local/mysql/bin:/usr/local/mysql/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/pansongkui/workspace/360/install-file/phantomjs-2.1.1-macosx/bin:/Users/pansongkui/bin/:/usr/local/mongodb/bin
+
+Yarn version: 
+  0.24.4
+
+Node version: 
+  12.16.2
+
+Platform: 
+  darwin x64
+
+npm manifest: 
+  {
+    "name": "@ivan/template-default",
+    "version": "0.0.1",
+    "description": "theme",
+    "main": "index.js",
+    "scripts": {
+      "start": "NODE_ENV=development tsc --allowJs --declaration --watch",
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [
+      "react"
+    ],
+    "license": "ISC",
+    "dependencies": {},
+    "devDependencies": {
+      "typescript": "^3.8.3"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
+
+Trace: 
+  Error: http://artifactory.intra.ke.com/artifactory/api/npm/npm-virtual/typescript: ETIMEDOUT
+      at Timeout._onTimeout (/Users/pansongkui/.redskull/yarn/yarn-0.24.4.js:106994:19)
+      at listOnTimeout (internal/timers.js:549:17)
+      at processTimers (internal/timers.js:492:7)
