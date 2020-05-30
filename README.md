@@ -2,15 +2,6 @@
 
 test
 
-## template-default
-
-渲染器脚手架
-
-脚手架发布：
-
-cd packages/template-default
-npm run pub
-
 ## 代码格式化
 
 prettier
