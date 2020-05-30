@@ -1,6 +1,5 @@
 {
   "private": true,
-  "description": "贝壳原石渲染器客户端",
   "workspaces": [
     "packages/*"
   ],
@@ -23,9 +22,5 @@
       "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
     }
   },
-  "name": "kegem",
-  "version": "1.0.0",
-  "main": "index.js",
-  "repository": "git@git.lianjia.com:plat-fe/kegem.git",
   "license": "MIT"
 }

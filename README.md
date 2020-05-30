@@ -1,41 +1,6 @@
-# kegem
+# EGM
 
-贝壳原石渲染器客户端
-
-## 使用说明
-
-```bash
-npm config set registry http://artifactory.intra.ke.com/artifactory/api/npm/npm-virtual/
-npm install @ke/kegem -g
-```
-
-1. 邮件申请 pid
-2. kegem init (需要填写上面的 pid)
-3. kegem start (渲染器开发)
-4. kegem build lib
-5. kegem build site
-6. kegem pub
-
-### 开发说明
-
-#### 安装依赖
-
-```bash
-yarn install
-```
-
-#### 启动
-
-```bash
-cd packages/kegem-cli
-yarn link
-yarn run watch
-```
-
-```bash
-cd packages/kegem-theme
-npm start
-```
+test
 
 ## template-default
 
